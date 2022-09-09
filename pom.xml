@@ -22,8 +22,11 @@
         <module>04_ListDIApp</module>
         <module>05_Scopes</module>
         <module>06_InitDestroyAndFactory</module>
-        <module>07_SpringAnnotations1</module>
-        <module>08_SpringAnnotations2</module>
+        <module>07_SpringAnnotationComponent</module>
+        <module>08_SpringAnnotationAutowired</module>
+        <module>09_SpringAnnotationQualifier</module>
+        <module>09_SpringAnnotations</module>
+        <module>10_SpringJavaConfiguration</module>
     </modules>
 
 </project>
