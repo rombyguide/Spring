@@ -8,11 +8,11 @@
         http://www.springframework.org/schema/context/spring-context.xsd">
 
     <bean id="musicBean"
-          class="ru.blino.springcore.ClassicalMusic">
+          class="ru.blino.ClassicalMusic">
     </bean>
 
     <bean id="musicPlayer"
-          class="ru.blino.springcore.MusicPlayer">
+          class="ru.blino.MusicPlayer">
         <constructor-arg ref="musicBean"/>
     </bean>
 
