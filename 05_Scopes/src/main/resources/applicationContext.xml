@@ -10,11 +10,11 @@
     <context:property-placeholder location="classpath:musicPlayer.properties"/>
 
     <bean id="musicBean"
-          class="ru.blino.springcore.ClassicalMusic">
+          class="ru.blino.ClassicalMusic">
     </bean>
 
     <bean id="musicPlayer"
-          class="ru.blino.springcore.MusicPlayer"
+          class="ru.blino.MusicPlayer"
           scope="prototype">
         <property name="music" ref="musicBean"/>
 
