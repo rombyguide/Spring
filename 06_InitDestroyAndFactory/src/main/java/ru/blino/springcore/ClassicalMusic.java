@@ -1,17 +1,12 @@
 package ru.blino.springcore;
 
+import org.springframework.stereotype.Component;
+
 /**
  * @author Roman Blinov
  */
+@Component
 public class ClassicalMusic implements Music {
-    private ClassicalMusic() {
-
-    }
-
-    public static ClassicalMusic getClassicalMusic() {
-        return new ClassicalMusic();
-    }
-
     private void doMyInit() {
         System.out.println("Doing my initialization");
     }
