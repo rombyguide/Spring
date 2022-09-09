@@ -27,6 +27,7 @@
         <module>09_SpringAnnotationQualifier</module>
         <module>09_SpringAnnotations</module>
         <module>10_SpringJavaConfiguration</module>
+        <module>11_SpringManualConfiguration</module>
     </modules>
 
 </project>
